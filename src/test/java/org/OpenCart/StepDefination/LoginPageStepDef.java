@@ -50,6 +50,7 @@ private LoginPage loginpage;
 
     @When("I clicked on the login button")
     public void i_clicked_on_the_login_button() {
+    	System.out.println("Login Button displayed successfully and clicked");
         loginpage.clickLoginBtn();
     }
     @Then("I should be logged in Successfully")
